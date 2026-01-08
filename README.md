@@ -7,11 +7,11 @@
 **Kelas**: TI.24.A1  
 
 <p align="center">
-  <img src="1.jpeg" width="200" alt="Izin lokasi" />
-  <img src="2.jpeg" width="200" alt="Splash Screen" />
-  <img src="3.jpeg" width="200" alt="Loading Screen" />
-  <img src="4.jpeg" width="200" alt="Halaman Utama" />
-  <img src="5.jpeg" width="200" alt="Halaman Utama" />
+  <img src="1.jpeg" width="200"  />
+  <img src="2.jpeg" width="200"  />
+  <img src="3.jpeg" width="200"  />
+  <img src="4.jpeg" width="200"  />
+  <img src="5.jpeg" width="200"  />
 </p>
 ## 1. Deskripsi Aplikasi
 Aplikasi **Kontak Saya** adalah aplikasi manajemen kontak pribadi berbasis Android yang dikembangkan menggunakan bahasa pemrograman Java dan Android Studio. Aplikasi ini dirancang dengan mengimplementasikan prinsip Material Design untuk memberikan pengalaman pengguna yang modern, responsif, dan mudah digunakan.

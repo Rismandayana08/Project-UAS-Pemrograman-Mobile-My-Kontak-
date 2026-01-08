@@ -5,7 +5,7 @@
 **Nama**: Aldi Rismandayana  
 **NIM**: 312410015  
 **Kelas**: TI.24.A1  
-**Tanggal Pengumpulan**: 00 Januari 2026
+
 
 ## 1. Deskripsi Aplikasi
 Aplikasi **Kontak Saya** adalah aplikasi manajemen kontak pribadi berbasis Android yang dikembangkan menggunakan bahasa pemrograman Java dan Android Studio. Aplikasi ini dirancang dengan mengimplementasikan prinsip Material Design untuk memberikan pengalaman pengguna yang modern, responsif, dan mudah digunakan.
@@ -90,4 +90,4 @@ Aplikasi "Kontak Saya" berhasil dikembangkan dengan fitur CRUD (Create, Read, Up
 ---
 Aldi Rismandayana  
 312410015  
-00 Januari 2026
+

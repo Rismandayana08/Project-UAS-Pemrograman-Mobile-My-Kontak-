@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF9C4"
+    android:padding="24dp">
+
+    <!-- Foto Profil (ImageView biasa, tapi tetap bulat + border biru) -->
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="DETAIL KONTAK"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/iv_profile"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/poto"
+        android:scaleType="centerCrop"
+        android:background="@drawable/circle_image"
+        android:clipToOutline="true"/>
+
+    <!-- Nama -->
+    <TextView
+        android:id="@+id/tv_detail_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#1976D2"/>
+
+    <!-- Telepon -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:layout_marginTop="30dp"
+        android:gravity="center_vertical">
+        <ImageView android:layout_width="28dp" android:layout_height="28dp"
+            android:src="@android:drawable/ic_menu_call" android:tint="#1976D2"/>
+        <TextView android:id="@+id/tv_phone"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="16sp" android:layout_marginStart="16dp"/>
+    </LinearLayout>
+
+    <!-- Email -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:layout_marginTop="16dp"
+        android:gravity="center_vertical">
+        <ImageView android:layout_width="28dp" android:layout_height="28dp"
+            android:src="@android:drawable/ic_menu_send" android:tint="#1976D2"/>
+        <TextView android:id="@+id/tv_email"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="16sp" android:layout_marginStart="16dp"/>
+    </LinearLayout>
+
+    <!-- Alamat -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:layout_marginTop="16dp"
+        android:gravity="center_vertical">
+        <ImageView android:layout_width="28dp" android:layout_height="28dp"
+            android:src="@android:drawable/ic_menu_myplaces" android:tint="#1976D2"/>
+        <TextView android:id="@+id/tv_address"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="16sp" android:layout_marginStart="16dp"/>
+    </LinearLayout>
+
+    <!-- Catatan -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:layout_marginTop="16dp"
+        android:gravity="center_vertical">
+        <ImageView android:layout_width="28dp" android:layout_height="28dp"
+            android:src="@android:drawable/ic_menu_info_details" android:tint="#1976D2"/>
+        <TextView android:id="@+id/tv_notes"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="16sp" android:layout_marginStart="16dp"/>
+    </LinearLayout>
+
+</LinearLayout>

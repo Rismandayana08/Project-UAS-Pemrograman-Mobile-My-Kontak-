@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF9C4"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!-- Icon Kontak (gunakan vector yang sudah kamu buat sebelumnya) -->
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/logo"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Teks Judul -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KONTAK SAYA"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#1976D2"
+        android:shadowColor="#40000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"/>
+
+</LinearLayout>

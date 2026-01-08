@@ -1,0 +1,28 @@
+<!-- Bar Lokasi Membaca (biru dengan icon globe) -->
+<LinearLayout
+    android:id="@+id/layout_reading_location"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="#2196F3"
+    android:padding="16dp"
+    android:layout_marginBottom="16dp"
+    android:elevation="4dp">
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@android:drawable/ic_dialog_map"
+        android:tint="#FFFFFF"
+        android:layout_marginEnd="12dp"/>
+
+    <TextView
+        android:id="@+id/tv_reading_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mencari lokasi..."
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+</LinearLayout>
